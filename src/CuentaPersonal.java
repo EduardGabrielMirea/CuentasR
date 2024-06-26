@@ -3,11 +3,11 @@ public class CuentaPersonal extends Cuenta{
         super(titular, cantidad);
     }
 
-    @Override
+
     public void transferencia(String numeroCuenta, double cantidad) {
         double comision = 3.0;
-        super.transferencia(numeroCuenta, cantidad + comision);
-        System.out.println("\t\t\t(Con comisión: " +comision+" $)");
+        this.retirar(cantidad + comision);
+        System.out.println("\t\t\t Se ingresó en "+numeroCuenta+" la cantidad: "+cantidad +" $ (Con comisión: " +comision+" $)");
     }
 
     /* public void transferencia(String numeroCuenta, double cantidad){

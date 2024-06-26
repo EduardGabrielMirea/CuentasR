@@ -49,9 +49,13 @@ public class Cuenta {
             System.out.println("\t\t-No se puede retirar numeros negativos. Introduzca una cantidad positiva.\n");
         }
     }
+
+/*
     public void transferencia(String numeroCuenta, double cantidad){
         //Necistamos que retire de esta cuenta.
         this.retirar(cantidad);
         System.out.println("\t\t\t Se ingresó en "+numeroCuenta+" la cantidad: "+cantidad +" $.");
     }
+
+ */
 }

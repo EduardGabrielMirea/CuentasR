@@ -16,8 +16,8 @@ public class CuentaExpansion extends Cuenta{
         this.minimoIngresoMensual = minimoIngresoMensual;
     }
 
-    @Override
     public void transferencia(String numeroCuenta, double cantidad) {
-        super.transferencia(numeroCuenta, cantidad);
+        this.retirar(cantidad);
+        System.out.println("\t\t\t Se ingresó en "+numeroCuenta+" la cantidad: "+cantidad +" $.");
     }
 }

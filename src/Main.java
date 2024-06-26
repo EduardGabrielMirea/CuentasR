@@ -10,7 +10,7 @@ public class Main {
                 cuenta1.mostrar();
                 cuenta1.ingresar(2000);
                 cuenta1.retirar(3000);
-                cuenta1.transferencia("133576789",100);
+                //cuenta1.transferencia("133576789",100); //No implemento el metodo transferecia en la clase Cuenta.
                 cuenta1.mostrar();
         System.out.println("-------------------------------");
 
@@ -33,7 +33,7 @@ public class Main {
             CuentaJoven cuentaJoven1 = new CuentaJoven(eddy,1000,0.5);
                 cuentaJoven1.mostrar();
                 cuentaJoven1.retirar(100);
-                cuentaJoven1.transferencia("587852351",100);
+                //cuentaJoven1.transferencia("587852351",100); //No implemento el metodo transferecia en la clase CuentaJoven.
                 cuentaJoven1.ingresar(-100);
                 cuentaJoven1.mostrar();
         System.out.println("-------------------------------");
